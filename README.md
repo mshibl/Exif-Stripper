@@ -1,6 +1,7 @@
 # Exif-Stripper
-A lightweight Javascript package for stripping off exif data (image metadata) from any jpeg image
-##### This plugin resues a portion of [Musa's](http://stackoverflow.com/users/1353011/musa) awesome answer to the question [How to Strip EXIF data from image](http://stackoverflow.com/questions/27638402/strip-exif-data-from-image) on SO
+A lightweight Javascript plugin for stripping off exif data (image metadata) from any jpeg image
+
+##### *This plugin resues a portion of [Musa's](http://stackoverflow.com/users/1353011/musa) awesome answer to the question [How to Strip EXIF data from image](http://stackoverflow.com/questions/27638402/strip-exif-data-from-image) on SO*
 
 ## Installation
   `npm install exif-stripper`
