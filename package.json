@@ -1,7 +1,7 @@
 {
   "name": "exif-stripper",
   "version": "0.0.1",
-  "description": "A pliugin for stripping off exif data from jpeg images",
+  "description": "A plugin for stripping off exif data from jpeg images",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter spec"
