@@ -17,7 +17,6 @@ module.exports = (function(){
 	        offset += 2;
 	        while (offset < dv.byteLength){
 	            if (app1 == 0xffe1){
-	                
 	                pieces[i] = {recess:recess,offset:offset-2};
 	                recess = offset + dv.getUint16(offset);
 	                i++;
@@ -53,7 +52,7 @@ module.exports = (function(){
 		    xhr.onload = function( e ) {
 		        var dataView = new DataView(this.response)
 		        var blobUrl = _removeExif(this.response, dataView)
-		        imageData.resolve(blobUrl)
+		        imageData.resolve({url: blobUrl})
 		    }
 
 		    xhr.send();
