@@ -1,0 +1,27 @@
+{
+  "name": "exif-stripper",
+  "version": "0.0.1",
+  "description": "A pliugin for stripping off exif data from jpeg images",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshibl/Exif-Stripper.git"
+  },
+  "keywords": [
+    "[exif",
+    "jpeg",
+    "metadata]"
+  ],
+  "author": "Mohamed Shibl <Mohamed.shibl@hotmail.com> (https://github.com/mshibl)",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/mshibl/Exif-Stripper/issues"
+  },
+  "homepage": "https://github.com/mshibl/Exif-Stripper#readme",
+  "dependencies": {
+    "jquery": "^3.0.0"
+  }
+}
