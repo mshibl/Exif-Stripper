@@ -14,13 +14,18 @@ A lightweight JavaScript plugin for stripping off EXIF data (image metadata) fro
     .then( function(response){ alert(response.url) });
   ```
 
-## What is EXIF?
+## Important Note
+  Because of the browser's [same origin policy](https://en.wikipedia.org/wiki/Same_origin_policy), the image has to be served from the same source as the website requesting it. **OR** the image has to be served from a source that has sufficient CORS Permissions. For more infomration about setting up CORS policies, check this article [Using CORS](http://www.html5rocks.com/en/tutorials/cors/)
+
+***
+
+### What is EXIF?
   Short answer: it is the metadata attached to any photo taken by a digital camera (including smartphones)
   
   Exif stands for (Exchangeable image file format) and can contain a wide range of information, such as (location where image was taken, original orientation, the type of camera used, etc.)
   For more information, read [Description of Exif file format](http://www.media.mit.edu/pia/Research/deepview/exif.html)
   
-## Why strip off EXIF?
+### Why strip off EXIF?
   You'll find many opinions about why exif data should be stripped off images. Those opinions mostly revolve around privacy concerns.
   
   My personal motivation for stripping off exif data from images is to avoid images being displayed differently across different operating systems. 
